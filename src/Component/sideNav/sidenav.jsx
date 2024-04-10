@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
 
 export default function SideNav() {
-  const [activeButton, setActiveButton] = useState('Dashboard'); // Set initial state to "Dashboard"
+  const [activeButton, setActiveButton] = useState('Dashboard'); 
 
 
   const handleButtonClick = (buttonName) => {
-    setActiveButton(buttonName); // Update state on button click
+    setActiveButton(buttonName);
   };
 
   const buttonData = [
     { name: 'Dashboard', link: '/dashboard' },
-    { name: 'Home', link: '/home' }, // Assuming you have a home route
-    { name: 'Order', link: '/dashboard' },  // Add links for other buttons
+    { name: 'Home', link: '/home' }, 
+    { name: 'Order', link: '/dashboard' },  
     { name: 'Menu', link: '/menu' },
     { name: 'Dishes', link: '/dishes' },
   ];
