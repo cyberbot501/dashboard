@@ -85,7 +85,7 @@ export default function dash() {
 
 
         <div className='border-[1px] border-white bg-white w-[481px] h-[379px] rounded-[15px] shadow'>
-              fffffff
+              
         </div>
       </div>
 
