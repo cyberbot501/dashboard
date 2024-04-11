@@ -12,14 +12,13 @@ const weeklyData = [
 ];
 
 const dailyData = [
-  { name: '1:00am', uv: 30, pv: 2400, amt: 2400 },
-  { name: '2:00am', uv: 40, pv: 1398, amt: 2210 },
-  { name: '3:00am', uv: 55, pv: 9800, amt: 2290 },
-  { name: '4:00am', uv: 70, pv: 3908, amt: 2000 },
-  { name: '5:00am', uv: 65, pv: 4800, amt: 2181 },
-  { name: '6:00am', uv: 75, pv: 3800, amt: 2500 },
-  { name: '7:00am', uv: 90, pv: 4300, amt: 7100 },
-  // Add more timestamps as needed
+  { name: '1pm', uv: 30, pv: 2400, amt: 2400 },
+  { name: '2pm', uv: 40, pv: 1398, amt: 2210 },
+  { name: '3pm', uv: 55, pv: 9800, amt: 2290 },
+  { name: '4pm', uv: 70, pv: 3908, amt: 2000 },
+  { name: '5pm', uv: 65, pv: 4800, amt: 2181 },
+  { name: '6pm', uv: 75, pv: 3800, amt: 2500 },
+  { name: '7pm', uv: 90, pv: 4300, amt: 7100 },
 ];
 
 const Chart = () => {
