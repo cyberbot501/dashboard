@@ -7,6 +7,7 @@ import { MdOutlineMenuBook } from "react-icons/md";
 import { PiCookingPotFill } from "react-icons/pi";
 import { FaCartArrowDown } from "react-icons/fa6";
 import CHART from '../../layout/chart'
+import RCHART from '../../layout/rchat'
 
 
 
@@ -85,7 +86,7 @@ export default function dash() {
 
 
         <div className='border-[1px] border-white bg-white w-[481px] h-[379px] rounded-[15px] shadow'>
-              
+              <RCHART />
         </div>
       </div>
 
