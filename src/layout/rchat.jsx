@@ -142,15 +142,11 @@ export default function rchat() {
             <Tooltip />
             <Legend />
             {/* <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" /> */}
-            <Bar dataKey="uv" barSize={20} fill="#413ea0" />
+            <Bar dataKey="uv" barSize={20} fill="#96C200" />
             {/* <Line type="monotone" dataKey="pv" stroke="#ff7300" /> */}
           </ComposedChart>
         
     </div>
-  </div>
-     
-       
-         
-      
+  </div>      
   )
 }

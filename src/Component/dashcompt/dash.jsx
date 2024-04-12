@@ -90,6 +90,31 @@ export default function dash() {
         </div>
       </div>
 
+
+
+      <div className=''>
+        <p className=''></p>
+        <div className=''>
+          <table>
+            <th>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </th>
+
+            <th>
+              <tr>yes</tr>
+              <tr>yes</tr>
+              <tr>yes</tr>
+              <tr>yes</tr>
+              <tr>yes</tr>
+            </th>
+          </table>
+        </div>
+      </div>
+
     </div>
   )
 }
