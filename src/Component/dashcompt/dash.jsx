@@ -51,7 +51,7 @@ const menuData = [
 
 export default function dash() {
   return (
-    <div className='border-[1px] h-[100vh] w-[100%] pl-[360px] bg-[#E1E1E1] pr-[1px] overflow-hidden'>
+    <div className='border-[1px] h-[100%] w-[100%] pl-[360px] bg-[#E1E1E1] pr-[1px]'>
       <div className='flex flex-row justify-center gap-[31rem] items-center pt-[45px]'>
         <div className='w-[386px] h-[50px] rounded-[5px] bg border-1px border-red-900 bg-white flex flex-row gap-2 items-center'>
             <CiSearch className='w-[20px] h-[20px] ml-[10px]'/>
@@ -92,25 +92,11 @@ export default function dash() {
 
 
 
-      <div className=''>
+      <div className='w-[984px] h-[100%] border-[1px] border-[white] bg-white rounded-[15px]'>
         <p className=''></p>
         <div className=''>
           <table>
-            <th>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-            </th>
-
-            <th>
-              <tr>yes</tr>
-              <tr>yes</tr>
-              <tr>yes</tr>
-              <tr>yes</tr>
-              <tr>yes</tr>
-            </th>
+            
           </table>
         </div>
       </div>
