@@ -97,7 +97,7 @@ export default function rchat() {
             </div>
 
             <div className="flex flex-row gap-1 items-center">
-              <div className="border-[1px] border-[#96C20022] rounded-[10px] w-[10px] h-[10px] bg-[#96C20022]"></div>
+              <div className="border-[1px] border-[#96C20062] rounded-[10px] w-[10px] h-[10px] bg-[#96C20062]"></div>
               <p className="text-[10px] font-normal">Below Average</p>
             </div>
           </div>
@@ -107,6 +107,7 @@ export default function rchat() {
           // value={selectedOption}
           // onChange={handleOptionChange}
         >
+          <option value="weekly" disable hidden>Months</option>
           <option value="weekly">Jan</option>
           <option value="daily">Feb</option>
           <option value="daily">Mar</option>
@@ -129,7 +130,12 @@ export default function rchat() {
           <Tooltip />
           <Legend />
           {/* <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" /> */}
-          <Bar dataKey="uv" barSize={20} fill="#96C200" />
+          <Bar dataKey="uv" barSize={20}  shape={(props) => (
+              <rect
+                {...props}
+                fill={props.payload.uv < 50 ? "#96C20062" : "#96C200"}
+              />
+            )} />
           {/* <Line type="monotone" dataKey="pv" stroke="#ff7300" /> */}
         </ComposedChart>
       </div>
