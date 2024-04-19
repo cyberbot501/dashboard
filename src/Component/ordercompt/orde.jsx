@@ -3,6 +3,7 @@ import { IoIosNotifications } from "react-icons/io";
 import { FaRegUserCircle } from "react-icons/fa";
 import React, { useState } from "react";
 import { IoIosArrowDropright } from "react-icons/io";
+import { GiCancel } from "react-icons/gi";
 
 const TableRow = ({ data, onViewMore }) => {
   return (
@@ -157,6 +158,10 @@ export default function Order() {
     setSelectedRow(rowData);
   };
 
+  const onCloseDetailBox = () => {
+    setSelectedRow(null);
+  };
+
   return (
     <div className="border-[1px] h-[100%] w-[100%] pl-[360px] bg-[#E1E1E1] pr-[1px]">
       <div className="flex flex-row justify-center gap-[31rem] items-center pt-[45px]">
@@ -184,9 +189,10 @@ export default function Order() {
         <IoIosArrowDropright className="w-[30px] h-[30px] " />
       </div>
 
-      <div className="w-[923px] h-[100%] border-[2px] border-[black] mt-10 ml-[15px] rounded-[15px]">
+      <div>
         {selectedRow && (
-          <div>
+          <div className="w-[923px] h-[100%] border-[2px] border-[black] mt-10 ml-[15px] rounded-[15px]">
+            <GiCancel onClick={onCloseDetailBox} className="pl-4 w-[40px] h-[40px] cursor-pointer"/>
             <p className="text-center mt-5 mb-5">
               <strong>Order Number:</strong> {selectedRow.orderNumber}
             </p>
@@ -259,7 +265,7 @@ export default function Order() {
         )}
       </div>
 
-      <div className="w-[974px] h-[100%] border-[1px] border-[white] bg-white rounded-[15px] flex flex-col gap-8 pl-32 ml-4 mt-10">
+      <div className="w-[923px] h-[100%] border-[1px] border-[white] bg-white rounded-[15px] flex flex-col gap-8 pl-24 ml-4 mt-10">
         <h2 className="text-[28px] font-bold mt-3">Order Summary</h2>
         <div className="">
           <table className="table-auto mb-4">
