@@ -13,7 +13,7 @@ export default function SideNav() {
   const buttonData = [
     { name: 'Dashboard', link: '/dashboard' },
     { name: 'Home', link: '/home' }, 
-    { name: 'Order', link: '/dashboard' },  
+    { name: 'Order', link: '/order' },  
     { name: 'Menu', link: '/menu' },
     { name: 'Dishes', link: '/dishes' },
   ];
