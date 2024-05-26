@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-rou
 import DASHBOARD from "./pages/Dashboard";
 import LOGIN from "./pages/login"
 import ORDER from "./pages/Order"
+import DISH from "./pages/dish"
 
 function App() {
   return (
@@ -10,12 +11,15 @@ function App() {
       <Route path="/" element={<LOGIN />} />,
       <Route path="/dashboard" element={<DASHBOARD />} />,
       <Route path="/order" element={<ORDER />} />,
+      <Route path="/dish" element={<DISH />} />,
     </Routes>
-  </BrowserRouter>
-  );
-}
+    </BrowserRouter>
+
+  )
+    }
+     
 
 export default App;
-
+     
 
 

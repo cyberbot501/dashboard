@@ -15,7 +15,7 @@ export default function SideNav() {
     { name: 'Home', link: '/home' }, 
     { name: 'Order', link: '/order' },  
     { name: 'Menu', link: '/menu' },
-    { name: 'Dishes', link: '/dishes' },
+    { name: 'Dishes', link: '/dish' },
   ];
 
   return (

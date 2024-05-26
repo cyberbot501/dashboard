@@ -1,6 +1,6 @@
 import React from 'react'
-import SLIDENAV from "../Component/sideNav/sidenav"
-import ORDE from "../Component/ordercompt/orde"
+import SLIDENAV from "../components/sideNav/sidenav"
+import ORDE from "../components/ordercompt/orde"
 
 export default function Order() {
   return (
