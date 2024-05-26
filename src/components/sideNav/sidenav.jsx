@@ -32,7 +32,7 @@ export default function SideNav() {
               <button
                  className={`
                  border-[1px] border-[#E1E1E1]
-                 ${activeButton === button.name ? 'hover active:bg-[#BE8213] text-[#BE8213]' : ' active:bg-[#BE8213] text-[#000000]'}
+                 ${activeButton === button.name ? 'hover active:bg-[#BE8213] text-[#000000]' : ' active:bg-[#BE8213] text-[#000000]'}
                  w-[241px] h-[50px] rounded-[5px] text-[16px] font-semibold
                `}
                 onClick={() => handleButtonClick(button.name)}
