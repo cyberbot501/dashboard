@@ -59,7 +59,7 @@ const AddItemForm = () => {
               <input type="text" value={eta} onChange={(e) => setEta(e.target.value)} className="border p-2 w-full" />
             </div>
             
-            <button type="submit" className="bg-blue-500 text-white p-2 rounded mt-4 w-full">Add Item</button>
+            <button type="submit" className="bg-[#CFCFCF] text-white p-2 rounded mt-4 w-full">Add Item</button>
           </div>
         </form>
       )}
