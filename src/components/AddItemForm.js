@@ -23,7 +23,7 @@ const AddItemForm = () => {
     setQuantity('');
     setEta('');
     setImage('');
-    setShowForm(false); // Hide the form after submitting
+    setShowForm(false); 
   };
 
   return (
