@@ -28,7 +28,7 @@ const AddItemForm = () => {
 
   return (
     <div>
-      <button onClick={() => setShowForm(!showForm)} className='border-[1px] border-[#CFCFCF] w-[143px] h-[50px] bg-[#CFCFCF] mb-10'>
+      <button onClick={() => setShowForm(!showForm)} className='border-[1px] border-[#CFCFCF] w-[143px] h-[50px] bg-[#CFCFCF] hover: mb-10'>
         {showForm ? 'Cancel' : 'Add a Dish'}
       </button>
       {showForm && (

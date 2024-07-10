@@ -3,6 +3,7 @@ import DASHBOARD from "./pages/Dashboard";
 import LOGIN from "./pages/login"
 import ORDER from "./pages/Order"
 import DISH from "./pages/dish"
+import MENUS from "./pages/menus"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/dashboard" element={<DASHBOARD />} />,
       <Route path="/order" element={<ORDER />} />,
       <Route path="/dish" element={<DISH />} />,
+      <Route path="/menus" element={<MENUS />} />,
     </Routes>
     </BrowserRouter>
 
