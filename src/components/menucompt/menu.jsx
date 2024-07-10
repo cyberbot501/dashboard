@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import MenuModal from '../MenuModal';
 import { removeMenuItem } from '../../action/menuActions';
 
-const menu = () => {
+const Menu = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const menuItems = useSelector((state) => state.menu.menuItems);
   const dispatch = useDispatch();
